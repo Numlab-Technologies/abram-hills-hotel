@@ -86,7 +86,7 @@ export default function AbramHillsHotel() {
               <a href="#dining" className="block py-2 text-gray-700 hover:text-gray-900">Dining</a>
               <a href="#spa" className="block py-2 text-gray-700 hover:text-gray-900">Spa</a>
               <a href="#events" className="block py-2 text-gray-700 hover:text-gray-900">Events</a>
-              <button className="w-full bg-amber-600 text-white px-6 py-2 hover:bg-amber-700 transition-colors">BOOK NOW</button>
+              <button className="w-full bg-[#d97706] text-white px-6 py-2 hover:bg-amber-700 transition-colors">BOOK NOW</button>
             </div>
           </div>
         )}
@@ -154,7 +154,7 @@ export default function AbramHillsHotel() {
             </button>
           </div>
           <div>
-            <img src="images/details.png" alt="Hotel" className="w-full h-96 object-cover shadow-xl" />
+            <img src="/images/details.png" alt="Hotel" className="w-full h-96 object-cover shadow-xl" />
           </div>
         </div>
 
@@ -184,7 +184,7 @@ export default function AbramHillsHotel() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="order-2 md:order-1">
-              <img src="images/rooms2.png" alt="Rooms" className="w-full h-96 object-cover shadow-xl" />
+              <img src="/images/rooms2.png" alt="Rooms" className="w-full h-96 object-cover shadow-xl" />
             </div>
             <div className="order-1 md:order-2">
               <h2 className="text-4xl font-light mb-6 text-gray-900">Rooms & Suites</h2>
@@ -241,7 +241,7 @@ export default function AbramHillsHotel() {
               </button>
             </div>
             <div>
-              <img src="images/restaurants.png" alt="Dining" className="w-full h-96 object-cover shadow-xl" />
+              <img src="/images/restaurants.png" alt="Dining" className="w-full h-96 object-cover shadow-xl" />
             </div>
           </div>
         </div>
@@ -281,15 +281,11 @@ export default function AbramHillsHotel() {
           </div>
           <div className="grid md:grid-cols-2 gap-8">
             <div className="relative h-80 overflow-hidden shadow-xl">
-              <img
-                src="/images/business-event.png" alt="Conference" className="w-full h-full object-cover block hover:scale-110 transition-transform duration-500" />
-              
-              <div className="absolute inset-0 bg-black/10 flex items-center justify-center">
+              <img src="/images/business-event.png" alt="Conference" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
+              <div className="absolute inset-0 bg-black/30 bg-opacity-30 flex items-center justify-center">
                 <h3 className="text-white text-3xl font-light">Business Events</h3>
               </div>
             </div>
-
-
             <div className="relative h-80 overflow-hidden shadow-xl">
               <img src="/images/celebration-event.png" alt="Wedding" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
               <div className="absolute inset-0 bg-black/30 flex items-center justify-center">
@@ -331,8 +327,8 @@ export default function AbramHillsHotel() {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <ul className="space-y-2 text-sm text-gray-400">
-                <li>E7-176-4958</li>
-                <li>7 Opoku Agyarko Lane, Pipeline, Koforidua, Eastern Region</li>
+                <li>E7-176-4958 Pipeline</li>
+                <li>Koforidua, Eastern Region</li>
                 <li>+233 24 454 4741</li>
                 <li>+233 53 363 3910</li>
                 <li>abramhillshotel@gmail.com</li>
