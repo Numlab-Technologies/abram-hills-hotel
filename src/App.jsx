@@ -113,8 +113,8 @@ export default function AbramHillsHotel() {
             <div className="absolute inset-0 bg-linear-to-b from-black/30 via-black/20 to-black/40" />
             <div className="absolute inset-0 flex items-center justify-center text-center">
               <div className="text-white px-4">
-                <h1 className="text-5xl md:text-7xl font-light mb-4 tracking-wide drop-shadow-2xl">{slide.title}</h1>
-                <p className="text-xl md:text-2xl font-light tracking-widest drop-shadow-lg">{slide.subtitle}</p>
+                <h1 className="text-3xl md:text-7xl font-light mb-4 tracking-wide drop-shadow-2xl">{slide.title}</h1>
+                <p className="text-lg md:text-2xl font-light tracking-widest drop-shadow-lg">{slide.subtitle}</p>
               </div>
             </div>
           </div>
